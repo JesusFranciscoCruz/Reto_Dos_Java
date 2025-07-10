@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Conversor de Grados Celcius</title>
+  <!-- links de la pagina con Bootstrap -->
+  <link rel="stylesheet" href="estilos.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+ <!---Fin de los links de Bootstrap -->
+
+</head>
+<body>
+     <!-- inicio del cuerpo  de la pagina-->
+        <div class="container mt-5">
+        <h1>Práctica de Conversión de Temperaturas</h1>
+        <br></br>
+<form class="row g-3">
+  <div class="col-auto">
+    <label for="staticGrados" class="visually-hidden">Ingresa los Grados</label>
+    <input type="text" readonly class="form-control-plaintext" id="staticGrados" value="Ingresa los grados">
+  </div>
+  <div class="col-auto">
+    <label for="inputGrados" class="visually-hidden">ingresar grados</label>
+    <input type="number" class="form-control" id="inputGrados" placeholder="" >
+  </div>
+  <div class="col-auto">
+    <button type="button" class="btn btn-primary mb-3" id="liveAlertBtn2">Convertir los Grados</button>
+  </div>
+</form>
+ <!-- fin del cuerpo de la pagina -->
+    </div>
+   
+  <!-- Scripts de la pagina -->
+   <script src="GRADOS.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
